@@ -1,0 +1,1 @@
+# Model artifacts directory — run `python -m ml.training.pipeline_local` to generate .joblib files

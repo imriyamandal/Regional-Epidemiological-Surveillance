@@ -1,0 +1,62 @@
+{
+  "passed": false,
+  "issues": [
+    "Fold 0: train max date >= test min date (temporal leak)",
+    "Fold 1: train max date >= test min date (temporal leak)",
+    "Fold 2: train max date >= test min date (temporal leak)",
+    "Fold 3: train max date >= test min date (temporal leak)",
+    "Fold 4: train max date >= test min date (temporal leak)"
+  ],
+  "fold_stats": [
+    {
+      "fold": 0,
+      "train_size": 1973,
+      "test_size": 1968,
+      "train_end": "2019-11-01 00:00:00",
+      "test_start": "2019-11-01 00:00:00",
+      "train_positive_rate": 0.2767359351241764,
+      "test_positive_rate": 0.2306910569105691
+    },
+    {
+      "fold": 1,
+      "train_size": 3941,
+      "test_size": 1968,
+      "train_end": "2020-10-01 00:00:00",
+      "test_start": "2020-10-01 00:00:00",
+      "train_positive_rate": 0.2537427048972342,
+      "test_positive_rate": 0.19207317073170732
+    },
+    {
+      "fold": 2,
+      "train_size": 5909,
+      "test_size": 1968,
+      "train_end": "2021-09-01 00:00:00",
+      "test_start": "2021-09-01 00:00:00",
+      "train_positive_rate": 0.2332035877475038,
+      "test_positive_rate": 0.16869918699186992
+    },
+    {
+      "fold": 3,
+      "train_size": 7877,
+      "test_size": 1968,
+      "train_end": "2022-11-01 00:00:00",
+      "test_start": "2022-11-01 00:00:00",
+      "train_positive_rate": 0.21708772375269772,
+      "test_positive_rate": 0.15091463414634146
+    },
+    {
+      "fold": 4,
+      "train_size": 9845,
+      "test_size": 1968,
+      "train_end": "2024-03-01 00:00:00",
+      "test_start": "2024-03-01 00:00:00",
+      "train_positive_rate": 0.2038598273235145,
+      "test_positive_rate": 0.14939024390243902
+    }
+  ],
+  "threshold_checks": {
+    "chronological_order": false,
+    "no_perfect_features": true
+  },
+  "generated_at": "2026-05-31T14:35:11.472266"
+}

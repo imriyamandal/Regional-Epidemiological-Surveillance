@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment & secrets (never commit)
+.env
+.env.local
+.env.*.local
+backend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Database
+*.db
+*.sqlite3
+backend/dopewis.db
+
+# ML artifacts (large binary files)
+mlruns/
+backend/artifacts/*.joblib
+backend/artifacts/reports/*.pdf
+backend/test_ci.db
+backend/tests/test_dopewis.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build
+dist/
+build/
+
+# Nested git repos (use monorepo root only)
+frontend/.git/
